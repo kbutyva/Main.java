@@ -39,11 +39,11 @@ public class Main {
         }
 
         if (a == true && b == true){
-        int num1 = Integer.parseInt(myArray[0]);
-        int num2 = Integer.parseInt(myArray[2]);
-        char op = myArray[1].charAt(0);
+            int num1 = Integer.parseInt(myArray[0]);
+            int num2 = Integer.parseInt(myArray[2]);
+            char op = myArray[1].charAt(0);
 
-        // вызов класса
+            // вызов класса
             Solution solution1 = new Solution();
             int result = solution1.calc(num1, num2, op);
             System.out.println("Output: " + result);
@@ -61,7 +61,7 @@ public class Main {
             ArabicToRoman arabicToRoman1 = new ArabicToRoman();
             String result = arabicToRoman1.arabicToRoman(result3);
 
-            System.out.println("Input: " + result );
+            System.out.println("Output: " + result );
 
         } else{
             System.err.println("Попробуй еще раз");
